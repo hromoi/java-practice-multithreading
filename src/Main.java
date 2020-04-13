@@ -14,6 +14,6 @@ public class Main {
         for (String path : listFilePath) {
             rf.read(path);
         }
-        ex.shutdownNow();
+        ex.shutdown();
     }
 }
